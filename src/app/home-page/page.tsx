@@ -18,74 +18,74 @@ import styles from "@/app/global-styles/styles.global.module.css";
 export default function HomePage() {
   const portalTabs = [
     {
-      title: "Telpay",
+      title: "Insurance Enquiry",
       description: "Online transactions",
       icon: <AccountBalanceIcon className={styles.iconStyles} />,
       path: "/telpay",
     },
     {
-      title: "Staff Benefit",
+      title: "My Policies",
       description: "Employees data benefit",
       icon: <Diversity3Icon className={styles.iconStyles} />,
       path: "/staff-benefit",
     },
     {
-      title: "Pin Enquiry",
+      title: "Claims",
       description: "Pin recharges history",
       icon: <FiberPinIcon className={styles.iconStyles} />,
       path: "/pin-recharge",
     },
     {
-      title: "USSD Reports",
+      title: "Motor Insurance",
       description: "USSD application reports",
       icon: <SimCardIcon className={styles.iconStyles} />,
       path: "/ussd-reports",
     },
     {
-      title: "USSD ",
+      title: "Home Comprehensive",
       description: "Search USSD transactions",
       icon: <SimCardIcon className={styles.iconStyles} />,
       path: "/ussd",
     },
 
     {
-      title: "VMS Product Management",
+      title: "Schools Protect",
       description: "VMS Product Management",
       icon: <InventoryIcon className={styles.iconStyles} />,
       path: "/vms-product-management",
     },
     {
-      title: "Bundle Transfer and Bundle Extension",
+      title: "Travel Cover",
       description: "Bundle Transfer and Bundle Extension",
       icon: <MoveDownIcon className={styles.iconStyles} />,
       path: "/bundle-transfer-extension",
     },
     {
-      title: "Self Service Kiosk",
+      title: "Report A Claim",
       description: "Self Service Kiosk",
       icon: <StorefrontIcon className={styles.iconStyles} />,
       path: "/kiosk",
     },
     {
-      title: "Visa Transactions",
+      title: "View Claims",
       description: "Visa Transactions",
       icon: <PaymentIcon className={styles.iconStyles} />,
       path: "/visa-transactions",
     },
     {
-      title: "VMS",
+      title: "Get A Policy",
       description: "VMS Vouchers",
       icon: <PriceChangeIcon className={styles.iconStyles} />,
       path: "/vms",
     },
     {
-      title: "Faults Dashboard",
+      title: "Contact Us",
       description: "Faults Dashboard",
       icon: <BuildIcon className={styles.iconStyles} />,
       path: "/faults-dashboard",
     },
     {
-      title: "OCS OTPs",
+      title: "Road Assistance",
       description: "OCS OTPs",
       icon: <SmsIcon className={styles.iconStyles} />,
       path: "/ocs-otp",
@@ -145,12 +145,12 @@ export default function HomePage() {
               <span className="sr-only">Discount</span>
             </span>
             <span>
-              <b>Facing any Challenges visit the old support Portal</b>{" "}
+              <b>So this is me trying to craft a dashboard.</b>{" "}
               <a
                 href="http://172.27.12.56:911/"
                 className="flex items-center ms-0 text-sm font-medium text-blue-600 md:ms-1 md:inline-flex dark:text-blue-500 hover:underline"
               >
-                Old Support Portal link{" "}
+                Lets see how it will end up{" "}
                 <svg
                   className="w-3 h-3 ms-2 rtl:rotate-180"
                   aria-hidden="true"
