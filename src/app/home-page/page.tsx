@@ -110,7 +110,7 @@ export default function HomePage() {
                 >
                   <div className={""}></div>
                 </div>
-                <div className="absolute top-0 left-0 h-12 w-12 rounded-2xl ml-5 px-3 py-3 bg-gradient-to-r from-blue-600 to-blue-400 text-white">
+                <div className="absolute top-0 left-0 h-12 w-12 rounded-2xl ml-5 px-3 py-3 bg-gradient-to-r from-red-600 to-red-400 text-white">
                   {item.icon}
                 </div>
                 <div className="grid grid-cols-1 divide-y">
